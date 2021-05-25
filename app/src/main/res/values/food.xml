@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name = "foodname1">
+        <item>炒飯</item>
+        <item>炒麵</item>
+        <item>咖哩</item>
+        <item>飲料</item>
+    </array>
+    <array name = "foodname2">
+        <item>炒飯</item>
+        <item>飲料</item>
+    </array>
+    <array name = "foodname3">
+        <item>義大利麵</item>
+        <item>燉飯</item>
+        <item>湯</item>
+        <item>飲料</item>
+    </array>
+    <array name = "foodname4">
+        <item>三寶飯</item>
+        <item>排骨飯</item>
+        <item>湯</item>
+        <item>飲料</item>
+    </array>
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".record">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083"
+        app:srcCompat="@drawable/ui1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="147dp">
+
+        <Button
+            android:id="@+id/bfbtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/uibg"
+            android:text="早餐" />
+
+        <TextView
+            android:id="@+id/breakfast"
+            android:layout_width="174dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/uibbo"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/cleanb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="100dp"
+            android:text="清空" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/dbtt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbtt"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/lbtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/uibg"
+            android:text="午餐" />
+
+        <TextView
+            android:id="@+id/lunch"
+            android:layout_width="174dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/uibbo"
+            android:textColor="@android:color/background_light" />
+        <Button
+            android:id="@+id/cleanl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="100dp"
+            android:text="清空" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ll_main_radio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dbtt"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/dbtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/uibg"
+            android:text="晚餐" />
+
+        <TextView
+            android:id="@+id/dinner"
+            android:layout_width="174dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="27dp"
+            android:background="@drawable/uibbo"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/cleand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="清空" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main_radio"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/mainbtt"
+            style="@style/rb_style"
+            android:layout_width="19dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:drawableTop="@drawable/uim" />
+
+        <RadioButton
+            android:id="@+id/caloriesbtt"
+            style="@style/rb_style"
+            android:drawableTop="@drawable/uir" />
+
+        <RadioButton
+            android:id="@+id/bmibtt"
+            style="@style/rb_style"
+            android:layout_width="5dp"
+            android:layout_height="44dp"
+            android:drawableTop="@drawable/uibmi" />
+
+        <RadioButton
+            android:id="@+id/timebtt"
+            style="@style/rb_style"
+            android:drawableTop="@drawable/uie" />
+
+    </LinearLayout>
+
+</LinearLayout>

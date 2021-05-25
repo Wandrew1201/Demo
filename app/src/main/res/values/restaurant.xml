@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name = "restname">
+    <item>餐廳01</item>
+    <item>餐廳02</item>
+    <item>餐廳03</item>
+    <item>餐廳04</item>
+    </array>
+</resources>

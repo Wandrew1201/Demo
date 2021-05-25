@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eating"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/addB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uibb"
+        android:text="搜尋"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/addB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uibb"
+        android:textColor="@android:color/background_light"
+        android:text="自訂" />
+
+    <Button
+        android:id="@+id/donebtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/uibb"
+        android:text="完成"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/addT"
+        android:layout_width="91dp"
+        android:layout_height="36dp"
+        android:background="@drawable/uisq"
+        android:text="熱量顯示"
+        android:gravity="center"
+        android:textColor="#F8FAF7F7" />
+
+    <ListView
+        android:id="@+id/food2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grayd"
+        android:divider="@android:color/background_dark"
+        android:dividerHeight="20px"
+        />
+
+
+</LinearLayout>

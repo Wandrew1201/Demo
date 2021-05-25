@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sportList">
+        <item>選擇運動</item>
+        <item>跑步</item>
+        <item>游泳</item>
+    </array>
+</resources>

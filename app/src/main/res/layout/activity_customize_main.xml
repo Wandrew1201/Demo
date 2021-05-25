@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".customizeMain">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="自訂菜單"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        app:srcCompat="@drawable/uiline" />
+
+    <EditText
+        android:id="@+id/cName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/uibb"
+        android:divider="@android:color/background_dark"
+        android:textColorHint="#F8FAF7F7"
+        android:dividerHeight="20px"
+        android:layout_gravity="center"
+        android:hint="輸入名稱"
+        android:textColor="#F8FAF7F7" />
+
+    <EditText
+        android:id="@+id/cCal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/uibb"
+        android:divider="@android:color/background_dark"
+        android:layout_gravity="center"
+        android:textColorHint="#F8FAF7F7"
+        android:dividerHeight="20px"
+        android:hint="輸入熱量"
+        android:textColor="#F8FAF7F7" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        app:srcCompat="@drawable/uiline" />
+
+    <Button
+        android:id="@+id/cBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/uibg"
+        android:text="加入" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </LinearLayout>
+
+
+</LinearLayout>

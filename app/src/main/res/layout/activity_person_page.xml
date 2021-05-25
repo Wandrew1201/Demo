@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".PersonPage">
+
+    <Button
+        android:id="@+id/mb"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:background="@drawable/uim" />
+
+    <TextView
+        android:id="@+id/nameV"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="@drawable/uibb"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/sexV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uibb"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/ageV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uibb"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/heightV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uibb"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/weightV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uibb"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/bmiV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/uibb"
+        android:textColor="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/resultV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/uisq"
+        android:gravity="center"
+        android:text="無最新BMI紀錄"
+        android:textColor="@android:color/background_light" />
+
+
+</LinearLayout>

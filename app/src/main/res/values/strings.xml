@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Calorate</string>
+    <string name="start">start</string>
+    <string name="reset">reset</string>
+    <string name="stop">stop</string>
+    <string name="weight">體重</string>
+    <string name="height">身高</string>
+    <string name="button">計算</string>
+    <string name="carlolies">卡路里</string>
+    <string name="walk">走路</string>
+    <string name="run">慢跑</string>
+    <string name="swim">游泳</string>
+    <string name="hour">小時</string>
+    <string name="nextp">下一頁</string>
+    <string name="bmi">BMI計算機</string>
+    <string name="eat">飲食紀錄</string>
+    <string name="calories">熱量消耗計算機</string>
+    <string name="time">運動碼表</string>
+    <string name="title">Calorate</string>
+    <string name="caloriesHint">熱量(大卡)</string>
+    <string name="textHigh">身高</string>
+    <string name="textWeight">體重</string>
+    <string name="textResult">結果</string>
+    <string name="textRes2">範圍</string>
+
+</resources>

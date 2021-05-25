@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".daterecord">
+
+    <ListView
+        android:id="@+id/datelist"
+        android:layout_width="410dp"
+        android:layout_height="457dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintBottom_toTopOf="@+id/ll_main_radio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_main_radio"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/mainbtt"
+                style="@style/rb_style"
+                android:layout_width="19dp"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:drawableTop="@drawable/uim" />
+
+            <RadioButton
+                android:id="@+id/bmibtt"
+                style="@style/rb_style"
+                android:drawableTop="@drawable/uibmi" />
+
+            <RadioButton
+                android:id="@+id/timebtt"
+                style="@style/rb_style"
+                android:drawableTop="@drawable/uie" />
+
+            <RadioButton
+                android:id="@+id/caloriesbtt"
+                style="@style/rb_style"
+                android:drawableTop="@drawable/uir" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/datelist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ui1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

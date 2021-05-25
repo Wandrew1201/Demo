@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Timing">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ui1"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+
+    <Chronometer
+        android:id="@+id/timer"
+        android:layout_width="253dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/uibgn"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="24dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/uibbs"
+        android:textColorHint="@android:color/background_light"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/uicir"
+            android:text="@string/start"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/uicir"
+            android:text="@string/stop"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/uicir"
+            android:text="@string/reset"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/yellow"
+        android:text="結果"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/getres"
+        android:layout_width="254dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/uisq"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_main_radio"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/mainbtt"
+                style="@style/rb_style"
+                android:layout_width="19dp"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:drawableTop="@drawable/uim" />
+
+            <RadioButton
+                android:id="@+id/bmibtt"
+                style="@style/rb_style"
+                android:drawableTop="@drawable/uibmi" />
+
+            <RadioButton
+                android:id="@+id/recordbtt"
+                style="@style/rb_style"
+                android:drawableTop="@drawable/uis" />
+
+            <RadioButton
+                android:id="@+id/timebtt"
+                style="@style/rb_style"
+                android:drawableTop="@drawable/uir" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
